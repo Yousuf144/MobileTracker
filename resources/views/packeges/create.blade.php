@@ -11,28 +11,22 @@
         <div class="form-group row">
             <div class="col-sm-6 mb-3 mb-sm-0">
                 <input type="text" class="form-control form-control-user" name="first_name" id="first_name"
-                    placeholder="First Name">
+                    placeholder="Packege Name">
             </div>
-            <div class="col-sm-6">
-                <input type="text" class="form-control form-control-user" name="last_name" id="exampleLastName"
-                    placeholder="Last Name">
-            </div>
-        </div>
-        <div class="form-group">
-            <input type="email" class="form-control form-control-user" name="email" id="exampleInputEmail"
-                placeholder="Email Address">
         </div>
         <div class="form-group row">
             <div class="col-sm-6 mb-3 mb-sm-0">
-                <input type="password" name="password" class="form-control form-control-user"
-                    id="exampleInputPassword" placeholder="Password">
-            </div>
-            <div class="col-sm-6">
-                <input type="number"  name="phone" class="form-control form-control-user"
-                    id="exampleRepeatPassword" placeholder="Enter Phone Number">
+                <input type="text" class="form-control form-control-user" name="first_name" id="first_name"
+                    placeholder="Price">
             </div>
         </div>
-        <a href="#" class="btn btn-primary btn-user btn-block">
+        <div class="form-group row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <input type="text" class="form-control form-control-user" name="first_name" id="first_name"
+                    placeholder="Packege Detail">
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary mb-3 mb-sm-0 col-sm-6 btn-user btn-block">
             Add Account
         </a>
         <hr>
