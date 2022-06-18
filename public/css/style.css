@@ -1,0 +1,11 @@
+.main-heading{
+    margin-top: 62px;
+        background-color: #00000091;
+        text-align: center;
+        color: white;
+        height: 75px; 
+}
+
+hr{
+    border-top: 1px solid #212020;
+}
