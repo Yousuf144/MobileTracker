@@ -40,6 +40,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/user/add', [UsersController::class, 'add_usesr'])->name('admin.user.add');
     Route::get('/user/view', [UsersController::class, 'view_user'])->name('admin.user.view');
     Route::get('/packeges/add', [PackegesController::class, 'create'])->name('admin.packeges.add');
+    Route::post('/packeges/store', [PackegesController::class, 'store'])->name('admin.packeges.store');
 
 });
 
