@@ -41,6 +41,11 @@ Route::prefix('admin')->group(function () {
     Route::get('/user/view', [UsersController::class, 'view_user'])->name('admin.user.view');
     Route::get('/packeges/add', [PackegesController::class, 'create'])->name('admin.packeges.add');
     Route::post('/packeges/store', [PackegesController::class, 'store'])->name('admin.packeges.store');
+    Route::get('/packeges/View', [PackegesController::class, 'index'])->name('admin.packeges.view');
+    Route::get('/packeges/Delete', [PackegesController::class, 'delete'])->name('admin.packeges.delete');
+    Route::get('/packeges/Edit', [PackegesController::class, 'edit'])->name('admin.packeges.edit');
+    Route::Post('/packeges/Update', [PackegesController::class, 'update'])->name('admin.packeges.update');
+
 
 });
 

@@ -83,7 +83,7 @@
                     <div class="bg-white collapse-inner rounded">
                         <h6 class="collapse-header">Manage Packeges:</h6>
                         <a class="collapse-item" href="{{ route('admin.packeges.add') }}">Add Packege</a>
-                        <a class="collapse-item" href="{{ route('admin.user.view') }}">View User</a>
+                        <a class="collapse-item" href="{{ route('admin.packeges.view') }}">View Pacakges</a>
 
                     </div>
                 </div>
