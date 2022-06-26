@@ -71,6 +71,7 @@ section {
 
 .section {
   padding: 7rem 0;
+  padding-top: 4rem;
 }
 
 .section-heading {
@@ -126,7 +127,7 @@ section {
   color: #2d71a1;
 }
 .btn.btn-primary {
-  background: #2d71a1;
+  background: rgb(90 39 133 / 80%) !important;
   background: linear-gradient(-45deg, #1391a5, #274685);
   color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);

@@ -16,8 +16,11 @@ use App\Http\Controllers\PackegesController;
 |
 */
 
-Route::get('/', [UsersController::class, 'index']);
-Route::get('/create', [ResuneController::class, 'create']);
+Route::get('/', [UsersController::class, 'index'])->name('home');
+Route::get('/create', [UsersController::class, 'create_user'])->name('user.create');
+Route::get('/login', [UsersController::class, 'login_user'])->name('user.login');
+Route::post('/user/store', [UsersController::class, 'store_user_account'])->name('user.store');
+
 
 Route::POST('/show', [ResuneController::class, 'show']);
 Route::POST('/store', [ResuneController::class, 'store']);
