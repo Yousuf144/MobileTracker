@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
+    public function index(){
+        $data['package'] =  DB::table('pacakege')->select('*')->get();
+
+        return view('index')->with('data',$data);
+    }
 
     public function dashboard(){
          return view('layout.index');

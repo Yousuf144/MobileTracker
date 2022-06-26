@@ -16,7 +16,7 @@ use App\Http\Controllers\PackegesController;
 |
 */
 
-Route::get('/', [ResuneController::class, 'index']);
+Route::get('/', [UsersController::class, 'index']);
 Route::get('/create', [ResuneController::class, 'create']);
 
 Route::POST('/show', [ResuneController::class, 'show']);
